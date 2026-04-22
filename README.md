@@ -222,9 +222,3 @@ Key pieces:
 ```bash
 mvn clean package
 ```
-
-
-## Planned plugin modules (separate builds)
-All planned plugins now have independent Maven scaffolds under `plugins/`, each with its own `pom.xml`, `plugin.yml`, main class, and README. Build any module individually from its folder.
-
-See: `plugins/README.md`.
