@@ -1,0 +1,34 @@
+name: CorePlugin
+main: com.example.core.CorePlugin
+version: 26.1.2
+api-version: '1.21'
+authors: [ "YourTeam" ]
+description: Core systems and shared services for your plugin suite.
+
+commands:
+  coredebug:
+    description: Displays admin debug information from the core plugin.
+    usage: /coredebug
+    permission: core.admin.debug
+  corereload:
+    description: Reloads core plugin config and language files.
+    usage: /corereload
+    permission: core.admin.reload
+  balance:
+    description: Displays your current money balance.
+    usage: /balance
+  money:
+    description: Economy admin command for adding/removing/setting money.
+    usage: /money <add|remove|set> <player> <amount> [currency]
+    permission: core.economy.admin
+
+permissions:
+  core.admin.debug:
+    description: Allows use of /coredebug
+    default: op
+  core.admin.reload:
+    description: Allows use of /corereload
+    default: op
+  core.economy.admin:
+    description: Allows use of /money
+    default: op

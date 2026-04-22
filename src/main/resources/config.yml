@@ -1,0 +1,20 @@
+language-file: lang.yml
+
+permissions:
+  admin.debug: core.admin.debug
+  admin.reload: core.admin.reload
+  economy.admin: core.economy.admin
+
+storage:
+  type: yaml # yaml | sqlite | mysql
+  sqlite:
+    file: storage.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: change-me
+
+economy:
+  default-currency: coins
