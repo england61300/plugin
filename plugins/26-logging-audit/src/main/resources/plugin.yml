@@ -1,0 +1,10 @@
+name: LoggingAuditPlugin
+main: com.example.plugins.logging.audit.LoggingAuditPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Audit and logging
+commands:
+  audit:
+    description: Audit command
+    usage: /audit

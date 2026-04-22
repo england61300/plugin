@@ -1,0 +1,13 @@
+name: CratesPlugin
+main: com.example.plugins.crates.CratesPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Crates and keys system
+commands:
+  crates:
+    description: Open crates menu
+    usage: /crates
+  crate:
+    description: Crate management
+    usage: /crate

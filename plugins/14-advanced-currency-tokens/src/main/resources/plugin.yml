@@ -1,0 +1,10 @@
+name: AdvancedCurrencyTokensPlugin
+main: com.example.plugins.advanced.currency.tokens.AdvancedCurrencyTokensPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Advanced token currencies
+commands:
+  tokens:
+    description: Token command
+    usage: /tokens

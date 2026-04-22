@@ -1,0 +1,16 @@
+name: AdminToolsPlugin
+main: com.example.plugins.admin.tools.AdminToolsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Admin utilities
+commands:
+  inspect:
+    description: Inspect inventory
+    usage: /inspect
+  systemlogs:
+    description: View system logs
+    usage: /systemlogs
+  forcestart:
+    description: Force start event
+    usage: /forcestart

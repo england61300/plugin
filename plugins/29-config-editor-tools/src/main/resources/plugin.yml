@@ -1,0 +1,10 @@
+name: ConfigEditorToolsPlugin
+main: com.example.plugins.config.editor.tools.ConfigEditorToolsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: In-game config editors
+commands:
+  editor:
+    description: Editor command
+    usage: /editor

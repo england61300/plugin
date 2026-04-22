@@ -1,0 +1,10 @@
+name: EnvoyPlugin
+main: com.example.plugins.envoy.EnvoyPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Envoy event system
+commands:
+  envoy:
+    description: Envoy command
+    usage: /envoy

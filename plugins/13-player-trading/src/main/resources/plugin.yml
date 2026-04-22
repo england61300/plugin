@@ -1,0 +1,10 @@
+name: PlayerTradingPlugin
+main: com.example.plugins.player.trading.PlayerTradingPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Secure player trading
+commands:
+  trade:
+    description: Trade command
+    usage: /trade

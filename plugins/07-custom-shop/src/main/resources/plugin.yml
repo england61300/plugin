@@ -1,0 +1,13 @@
+name: CustomShopPlugin
+main: com.example.plugins.custom.shop.CustomShopPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Server shop system
+commands:
+  shop:
+    description: Open shop
+    usage: /shop
+  shopadmin:
+    description: Shop admin tools
+    usage: /shopadmin

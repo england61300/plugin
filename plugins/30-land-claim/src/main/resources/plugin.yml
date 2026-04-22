@@ -1,0 +1,16 @@
+name: LandClaimPlugin
+main: com.example.plugins.land.claim.LandClaimPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Land claim system
+commands:
+  claim:
+    description: Claim command
+    usage: /claim
+  unclaim:
+    description: Unclaim command
+    usage: /unclaim
+  claims:
+    description: List claims
+    usage: /claims

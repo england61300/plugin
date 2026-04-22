@@ -1,0 +1,10 @@
+name: PlayerDeathPunishmentPlugin
+main: com.example.plugins.player.death.punishment.PlayerDeathPunishmentPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Death punishment system
+commands:
+  deathpunish:
+    description: Death punishment command
+    usage: /deathpunish
