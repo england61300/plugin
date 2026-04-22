@@ -1,0 +1,10 @@
+name: MiniEventSchedulerPlugin
+main: com.example.plugins.mini.event.scheduler.MiniEventSchedulerPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Mini event scheduling
+commands:
+  events:
+    description: Event scheduler command
+    usage: /events

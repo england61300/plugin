@@ -1,0 +1,13 @@
+name: ProgressionSeasonPassPlugin
+main: com.example.plugins.progression.season.pass.ProgressionSeasonPassPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Season pass progression
+commands:
+  pass:
+    description: Season pass command
+    usage: /pass
+  missions:
+    description: Missions command
+    usage: /missions

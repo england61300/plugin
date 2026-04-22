@@ -1,0 +1,13 @@
+name: PlaceholderApiBridgePlugin
+main: com.example.plugins.placeholder.api.bridge.PlaceholderApiBridgePlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Placeholder/API bridge
+commands:
+  placeholders:
+    description: List placeholders
+    usage: /placeholders
+  api:
+    description: API bridge command
+    usage: /api

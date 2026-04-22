@@ -1,0 +1,10 @@
+name: AuctionHousePlugin
+main: com.example.plugins.auction.house.AuctionHousePlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Auction house/player market
+commands:
+  ah:
+    description: Auction house command
+    usage: /ah

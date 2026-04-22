@@ -1,0 +1,10 @@
+name: DungeonPlugin
+main: com.example.plugins.dungeon.DungeonPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Dungeon system
+commands:
+  dungeon:
+    description: Dungeon command
+    usage: /dungeon

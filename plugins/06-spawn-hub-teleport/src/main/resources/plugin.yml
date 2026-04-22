@@ -1,0 +1,37 @@
+name: SpawnHubTeleportPlugin
+main: com.example.plugins.spawn.hub.teleport.SpawnHubTeleportPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Spawn, hub, warps, teleport requests
+commands:
+  setspawn:
+    description: Set global spawn
+    usage: /setspawn
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn
+  hub:
+    description: Return to hub
+    usage: /hub
+  warp:
+    description: Warp commands
+    usage: /warp
+  rtp:
+    description: Random teleport
+    usage: /rtp
+  tpa:
+    description: Request teleport
+    usage: /tpa
+  tpahere:
+    description: Request teleport to you
+    usage: /tpahere
+  tpaccept:
+    description: Accept teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny teleport request
+    usage: /tpdeny
+  pwarp:
+    description: Player warp commands
+    usage: /pwarp

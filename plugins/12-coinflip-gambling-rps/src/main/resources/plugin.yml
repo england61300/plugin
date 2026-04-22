@@ -1,0 +1,13 @@
+name: CoinflipGamblingRpsPlugin
+main: com.example.plugins.coinflip.gambling.rps.CoinflipGamblingRpsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Coinflip and RPS betting
+commands:
+  coinflip:
+    description: Coinflip command
+    usage: /coinflip
+  rps:
+    description: Rock paper scissors command
+    usage: /rps

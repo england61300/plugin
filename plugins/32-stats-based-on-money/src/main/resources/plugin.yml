@@ -1,0 +1,10 @@
+name: StatsBasedOnMoneyPlugin
+main: com.example.plugins.stats.based.on.money.StatsBasedOnMoneyPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Stats from wealth
+commands:
+  moneybonus:
+    description: Money bonus command
+    usage: /moneybonus

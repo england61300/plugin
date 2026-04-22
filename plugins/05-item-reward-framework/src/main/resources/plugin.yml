@@ -1,0 +1,13 @@
+name: ItemRewardFrameworkPlugin
+main: com.example.plugins.item.reward.framework.ItemRewardFrameworkPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Custom rewards framework
+commands:
+  rewards:
+    description: Open rewards menu
+    usage: /rewards
+  reward:
+    description: Reward management command
+    usage: /reward

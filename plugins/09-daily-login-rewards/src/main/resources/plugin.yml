@@ -1,0 +1,16 @@
+name: DailyLoginRewardsPlugin
+main: com.example.plugins.daily.login.rewards.DailyLoginRewardsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Daily/login/playtime rewards
+commands:
+  daily:
+    description: Claim daily reward
+    usage: /daily
+  vote:
+    description: Vote reward check
+    usage: /vote
+  kit:
+    description: Claim kit
+    usage: /kit

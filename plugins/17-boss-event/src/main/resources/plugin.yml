@@ -1,0 +1,10 @@
+name: BossEventPlugin
+main: com.example.plugins.boss.event.BossEventPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Boss events
+commands:
+  boss:
+    description: Boss event command
+    usage: /boss

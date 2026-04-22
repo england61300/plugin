@@ -1,0 +1,10 @@
+name: KothAreaControlPlugin
+main: com.example.plugins.koth.area.control.KothAreaControlPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: KOTH/area control
+commands:
+  koth:
+    description: KOTH command
+    usage: /koth

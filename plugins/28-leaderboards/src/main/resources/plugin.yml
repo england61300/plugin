@@ -1,0 +1,10 @@
+name: LeaderboardsPlugin
+main: com.example.plugins.leaderboards.LeaderboardsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Leaderboards
+commands:
+  top:
+    description: Top leaderboards command
+    usage: /top

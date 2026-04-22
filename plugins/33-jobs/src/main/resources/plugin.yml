@@ -1,0 +1,10 @@
+name: JobsPlugin
+main: com.example.plugins.jobs.JobsPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Jobs system
+commands:
+  jobs:
+    description: Jobs command
+    usage: /jobs

@@ -1,0 +1,10 @@
+name: FishingTournamentPlugin
+main: com.example.plugins.fishing.tournament.FishingTournamentPlugin
+version: 0.1.0-SNAPSHOT
+api-version: '1.21'
+authors: ["YourTeam"]
+description: Fishing tournaments
+commands:
+  fish:
+    description: Fishing tournament command
+    usage: /fish
