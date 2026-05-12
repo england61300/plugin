@@ -45,7 +45,7 @@ Key pieces:
 - `GuiManager.refresh(player)` for menu update logic
 
 ## Command map by plugin
-> Current commands are marked **Live** (implemented in this repo). Planned commands are **Planned** and serve as your build roadmap.
+> Current commands are marked **Live** (implemented in this repo). Planned commands are **Planned** and serve as a build roadmap.
 
 ### 1) Core (**Live**)
 - `/coredebug` — Show core debug info (TPS, online players, worlds, storage provider).
